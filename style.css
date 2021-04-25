@@ -15,6 +15,11 @@ header {
   justify-content: center;
 }
 
+.header-container {
+  width: 1024px;
+  display: flex;
+}
+
 .container {
   width: 1024px;
   display: flex;
@@ -68,6 +73,7 @@ nav {
 
 .container {
   width: 100%;
+  padding: 90px 0;
   text-align: center;
 }
 
@@ -82,10 +88,6 @@ nav {
 #contact {
   width: 1024px;
   margin: 0 auto;
-}
-
-#portfolio {
-  padding: 90px 0;
 }
 
 .main-heading {
@@ -106,7 +108,7 @@ nav {
 }
 
 .main-text {
-  padding: 30px 0;
+  padding: 38px 0 30px 0;
 }
 
 .portfolio-item-box {
@@ -155,8 +157,35 @@ nav {
   background-image: url(img/webcamp-mother.png);
 }
 
+.feature-item-box {
+  display: flex;
+  justify-content: center;
+}
+
+.feature-item {
+  width: 320px;
+  height: auto;
+}
+
+.feature-item-2 {
+  margin: 0 10px;
+}
+
 .feature-item-logo {
-  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+.feature-item-heading {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #000000;
+}
+
+.feature-item-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
 }
 
 footer {
